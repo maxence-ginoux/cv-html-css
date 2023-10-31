@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: rgb(99, 99, 99);
+}
+
+#colonne{
+    display: flex;
+    flex-direction: row;
+}
+
+#colonne_droite{
+    display: flex;
+    flex-direction: column;
+}
+
+#montitre {
+    color: rgb(152, 185, 246);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+   text-decoration: underline; 
+}
+
+.informationspersonnelles {
+    background-color: rgb(152, 185, 246);   
+    padding: 50px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;  
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    border:solid 1px;
+    width:280px;
+    top:10px;
+    left:10px; 
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.carreinfo {
+    background-color: rgb(152, 185, 246);
+    padding: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    border:solid 1px;
+}
+
+.competences {
+    background-color: rgb(152, 185, 246);
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
